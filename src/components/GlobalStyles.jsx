@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico:600');
+    
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -22,8 +24,6 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pacifico:600');
-        @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
         font-family: "Open Sans", sans-serif;
     }
 
